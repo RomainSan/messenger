@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #ffffffde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00000080 white;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00000080;
+  border-radius: 20px;
+}
+
+::-moz-selection {
+  background: #fff;
+  color: #10b981;
+}
+
+::selection {
+  background: #fff;
+  color: #10b981;
+}
+
+.active {
+  border-left: 7px solid #10b981;
+}
+
+.btn {
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ffffff;
+}
+.image-upload > input {
+  display: none;
+}
